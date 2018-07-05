@@ -1,6 +1,6 @@
 {
   "name": "js-pptx",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pure Javascript reader/writer for PowerPoint .pptx files",
   "main": "lib/pptx.js",
   "scripts": {
@@ -18,16 +18,19 @@
   "homepage": "https://github.com/protobi/js-pptx",
   "dependencies": {
     "async": "^1.4.0",
-    "jszip": "^2.5.0",
+    "jszip": "^3.1.5",
     "lodash": "^3.10.0",
     "msexcel-builder": "0.0.2",
-    "query": "git://github.com/protobi/query.git",
     "xml2js": "^0.4.9",
-    "xmlbuilder": "^2.6.4"
+    "xmlbuilder": "^2.6.4",
+    "query": "protobi/query"
   },
   "devDependencies": {},
   "directories": {
     "test": "test"
+  },
+  "git_dependencies": {
+  	"query": "git://github.com/protobi/query.git"
   },
   "keywords": [
     "PowerPoint",
